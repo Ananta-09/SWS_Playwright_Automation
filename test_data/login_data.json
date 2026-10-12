@@ -1,0 +1,31 @@
+{
+    "invalid_password":[
+    {
+        "username":"UFFPS1042A","password":"passwordddd","expected_result":"Incorrect password. Please try again."
+    },
+    {
+        "username":"EBCPM2146A","password":"1234565","expected_result":"Incorrect password. Please try again."
+    },
+    {
+        "username":"TQMPS0550J","password":"wordpass","expected_result":"Incorrect password. Please try again."
+    },
+    {
+        "username":"VKIUR7658N","password":"qwerty","expected_result":"Incorrect password. Please try again."
+    }
+],
+ "invalid_username":[
+    {
+        "username":"UFFP","expected_result":"User not found."
+    },
+    {
+        "username":"UFFPS104222","expected_result":"User not found."
+    },
+    {
+        "username":"12345@","expected_result":"User not found."
+    },
+    {
+        "username":"pl!@##l","expected_result":"User not found."
+    }
+
+ ]
+}
